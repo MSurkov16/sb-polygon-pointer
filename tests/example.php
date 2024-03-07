@@ -1,8 +1,8 @@
 <?php
 
-$currentDir = __DIR__ . '../src/';
+//$currentDir = __DIR__ . '../src/';
 
-include_once $currentDir . 'SbPolygonEngine.php';
+//include_once $currentDir . 'SbPolygonEngine.php';
 
 
 $polygonBox = [
