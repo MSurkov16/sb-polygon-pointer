@@ -1,10 +1,13 @@
 <?php
+
+namespace SbPolygonPointer;
+
 /**
  * User: Viktor (based on randywendy ideas)
  * Date: 20.01.18
  */
 
-class sbPolygonEngine {
+class SbPolygonEngine {
 
     public $map_width = 500;
     public $map_height = 500;

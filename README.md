@@ -3,6 +3,14 @@ Simple PHP class that provides tools to define is a point (latitude/longitude) i
 
 See the example at example.php
 
+## Install
+
+Via Composer
+
+``` bash
+$ composer require msurkov16/sb-polygon-pointer
+```
+
 #### Init custom polygon ####
 ```PHP
 
@@ -34,5 +42,8 @@ $isCrosses = $sbPolygonEngine->isCrossesWith(55.746768, 37.625605);
 $sbPolygonEngine->previewBounds($draw_perpendicular = true, $draw_center_dot = true);
 // it will return an <img src="src="data:image/jpeg;base64,....">
 ```
+## Change log
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 Feel free to contribute

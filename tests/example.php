@@ -1,8 +1,8 @@
 <?php
 
-$currentDir = __DIR__ . '/';
+$currentDir = __DIR__ . '../src/';
 
-include_once $currentDir . 'sbPolyPointer.php';
+include_once $currentDir . 'SbPolygonEngine.php';
 
 
 $polygonBox = [
@@ -12,7 +12,7 @@ $polygonBox = [
     [55.737649, 37.597301],
 ];
 
-$sbPolygonEngine = new sbPolygonEngine($polygonBox);
+$sbPolygonEngine = new \SbPolygonPointer\SbPolygonEngine($polygonBox);
 
 // check if point is inside the polygon
 $isCrosses = $sbPolygonEngine->isCrossesWith(55.746768, 37.625605);

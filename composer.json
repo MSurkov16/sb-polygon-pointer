@@ -1,0 +1,27 @@
+{
+    "name": "msurkov16/sb-polygon-pointer",
+    "type": "library",
+    "description": "Simple PHP class that provides tools to define is a point (latitude/longitude) is inside the polygon",
+    "keywords": [
+        "xopbatgh",
+        "sb-polygon-pointer"
+    ],
+    "homepage": "https://github.com/MSurkov16/sb-polygon-pointer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xopbatgh",
+            "email": "",
+            "homepage": "https://github.com/xopbatgh/sb-polygon-pointer",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": "~7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SbPolygonPointer\\": "src/"
+        }
+    }
+}
